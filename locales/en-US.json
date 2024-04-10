@@ -1,0 +1,41 @@
+{
+    "status": {
+      "online": "I'm online on",
+      "servers": "servers",
+      "creator": "My creator:",
+      "fabulous": "The Fabulous DISMOD!"
+    },
+
+    "commands": {
+        "ping": {
+        "checking_ping": "Checking Dismod ping.. 🔄",
+        "loading": "Loading...",
+        "dismod_ping": "Dismod Ping:",
+        "api_ping": "API Ping:"
+        },
+        "ticket": {
+            "send": {
+              "open_ticket_button": "Open a ticket!"
+            },
+        "setup": {
+            "category_label": "Category:",
+            "logs_label": "Logs Channel:",
+            "manager_label": "Ticket Manager:"
+        }
+        }
+    },
+        "errors": {
+          "permission_error": "You need `Administrator` permission to use this command!",
+          "ticket_system_not_setup": "The ticket system is not set up in this server!",
+          "ticket_system_already_setup": "The ticket system is already set up in this server!"
+        },
+        "success": {
+          "ticket_category_updated": "Successfully updated tickets category to - {category}",
+          "ticket_logs_channel_updated": "Successfully updated ticket logs channel to - {channel}",
+          "ticket_managers_updated": "Successfully updated ticket managers to {role}",
+          "ticket_system_disabled": "Successfully disabled ticket system in this server!",
+          "ticket_message_sent": "Sent message!",
+          "ticket_system_setup": "Setup ticket system!"
+        }
+}   
+  

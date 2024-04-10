@@ -1,0 +1,34 @@
+{
+    "commands": {
+      "ping": {
+        "checking_ping": "Estou a verificar o ping do Dismod.. 🔄",
+        "loading": "A carregar...",
+        "dismod_ping": "Ping do Dismod:",
+        "api_ping": "Ping da API:"
+      },
+      "ticket": {
+        "send": {
+          "open_ticket_button": "Abre um ticket!"
+        },
+        "setup": {
+          "category_label": "Categoria:",
+          "logs_label": "Canal de Registos:",
+          "manager_label": "Gestor de Tickets:"
+        }
+      }
+    },
+    "errors": {
+      "permission_error": "Precisas da permissão `Administrador` para usar este comando!",
+      "ticket_system_not_setup": "O sistema de tickets ainda não está configurado neste servidor!",
+      "ticket_system_already_setup": "O sistema de tickets já está configurado neste servidor!"
+    },
+    "success": {
+      "ticket_category_updated": "Categoria de tickets atualizada para - {category}",
+      "ticket_logs_channel_updated": "Canal de registos de tickets atualizado para - {channel}",
+      "ticket_managers_updated": "Equipa de tickets atualizados para {role}",
+      "ticket_system_disabled": "Sistema de tickets desativado com sucesso neste servidor!",
+      "ticket_message_sent": "Mensagem enviada!",
+      "ticket_system_setup": "Sistema de tickets configurado!"
+    }
+  }
+  
