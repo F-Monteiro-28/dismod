@@ -1,0 +1,10 @@
+client.guilds.cache.forEach(guild => {
+    const memberCount = guild.members.cache.filter(member => !member.user.bot).size
+
+// This filters out bots and only counts true members
+
+    if (memberCount < 50) {
+        guild.leave()
+        console.log(`Left the ${guild.name} guild because they only had ${memberCount} members!`)
+    }
+})
